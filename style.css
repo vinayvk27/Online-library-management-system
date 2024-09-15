@@ -161,7 +161,7 @@ btn:focus{
     height: 380px;
     background: linear-gradient(to top, rgba(30, 30, 18, 0.388) 50%, rgba(16, 16, 10, 0.388) 50%);
     position: absolute;
-    top: 150px;
+    top: 100px;
     left: 50%; 
     transform: translateX(120%);
     border-radius: 20px;
