@@ -225,6 +225,25 @@ btn:focus{
 .closeicon:hover{
     background-color: red;
 }
+.closeIcon1{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 35px;
+    height: 35px;
+    background-color: #ff7200;
+    color: #fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1000;
+
+}
+.closeIcon1:hover{
+    background-color: red;
+}
 ::placeholder{
     color: #fff;
     font-family: Arial;
