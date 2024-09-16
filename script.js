@@ -22,10 +22,16 @@ loginLinkInRegister.addEventListener('click', showLoginPage);
 
 loginBtn.addEventListener('click', showLoginPage);
 
-const closeIcon = document.querySelector('.closeicon');
+const closeIcon = document.querySelector('.closeIcon');
+const closeIcon1 = document.querySelector('.closeIcon1');
 
 function hideLoginPage() {
     loginPage.style.display = 'none';
 }
+function hideregisterPage() {
+    registerPage.style.display = 'none';
+}
 
 closeIcon.addEventListener('click', hideLoginPage);
+closeIcon1.addEventListener('click',hideregisterPage );
+
