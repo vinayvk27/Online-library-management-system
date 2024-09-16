@@ -26,12 +26,12 @@
     <div class="description">
         <h1>
             <span>LEARNEASE<br></span>
-            The ultimate Destination of all ages and backgrounds!!<br>
-            <p class="para">we offer you a wide range of courses taught by<br> industry experts and experiences Educators.</p>
+            <h2>The ultimate Destination of all ages and backgrounds!<br></h2>
+            <p class="para">we offer you a wide range of courses taught by<br> Industry Experts and Experiences Educators.</p>
         </h1>
     </div>
         <div class="wrapper" id="loginPage">
-            <span class="closeicon"><ion-icon name="close-outline"></ion-icon></span>
+            <span class="closeIcon"><ion-icon name="close-outline"></ion-icon></span>
             <h2>Login</h2>
             <span class="icon"><ion-icon name="mail-outline"></ion-icon></span><input type="email" name="email" placeholder="enter email address"> 
             <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span><input type="password" name="" placeholder="enter your password">
@@ -41,6 +41,7 @@
 
         </div>
             <div class="newregister"id ="registerPage" style="display: none;">
+            <span class="closeIcon1"><ion-icon name="close-outline"></ion-icon></span>
             <h2>Register</h2>
             <span class="icon"><ion-icon name="mail-outline"></ion-icon></span><input type="email" name="" placeholder="enter email address"> 
             <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span><input type="password" name="" placeholder="New password">
@@ -60,7 +61,3 @@
 
 </body>
 </html>
-
-
-
- 
