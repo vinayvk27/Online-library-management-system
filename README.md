@@ -11,11 +11,11 @@ The system also includes a login and registration toggle feature, making user au
 
 Technology                                   Purpose
 
-ASP.NET Core (C#)-------------->  Backend logic for authentication, user management, and database interaction.
-SQL Server--------------------->  Database for storing user credentials and book details.
-Entity Framework Core (EF Core)->	ORM for database interactions (retrieving users, checking credentials).
-HTML, CSS, JavaScript-----------> Frontend UI for login, registration, and displaying books.
-Azure Data Studio---------------> Managing SQL Server database.
+ASP.NET Core (C#)                Backend logic for authentication, user management, and database interaction.
+SQL Server                       Database for storing user credentials and book details.
+Entity Framework Core (EF Core)	ORM for database interactions (retrieving users, checking credentials).
+HTML, CSS, JavaScript           Frontend UI for login, registration, and displaying books.
+Azure Data Studio               Managing SQL Server database.
 
 |---------------------------------------------------------------------------------------------------------------------------|
 
@@ -43,19 +43,19 @@ Azure Data Studio---------------> Managing SQL Server database.
 
                       Users Table
 
-Column Name	                Data Type	Description
-IdINT (Primary Key)----->	Unique identifier for each user
-EmailNVARCHAR(255)------->	   Stores user email
-PasswordHash NVARCHAR(255)->   Stores hashed password
+Column Name	                    Data Type	Description
+IdINT (Primary Key)	           Unique identifier for each user
+EmailNVARCHAR(255)        	   Stores user email
+PasswordHash NVARCHAR(255)     Stores hashed password
 
                       Books table(Read only)
 
 Column Name	                  Data Type	Description
-S.NO------------------------>	Unique identifier for each Book
-Name of the Book------------> Each book's name
-Author----------------------> Each Book's Author
-Total Copies----------------> No. of available copies                  
-Price of Each---------------> Each Book's Price  
+S.NO                        	Unique identifier for each Book
+Name of the Book              Each book's name
+Autho                         Each Book's Author
+Total Copies                  No. of available copies                  
+Price of Each                 Each Book's Price  
 
 |--------------------------------------------------------------------------------------------------------------------------|
 
