@@ -8,11 +8,11 @@ This Online Library Management System is a web-based application designed to man
 
 Technology                                   Purpose
 
-ASP.NET Core (C#)	              Backend logic for authentication, user management, and database interaction.
-SQL Server	                    Database for storing user credentials and book details.
-Entity Framework Core (EF Core)	ORM for database interactions (retrieving users, checking credentials).
-HTML, CSS, JavaScript	          Frontend UI for login, registration, and displaying books.
-Azure Data Studio               Managing SQL Server database.
+ASP.NET Core (C#)-------------->  Backend logic for authentication, user management, and database interaction.
+SQL Server--------------------->  Database for storing user credentials and book details.
+Entity Framework Core (EF Core)->	ORM for database interactions (retrieving users, checking credentials).
+HTML, CSS, JavaScript-----------> Frontend UI for login, registration, and displaying books.
+Azure Data Studio---------------> Managing SQL Server database.
 
 |---------------------------------------------------------------------------------------------------------------------------|
 
