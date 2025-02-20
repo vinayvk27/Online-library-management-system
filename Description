@@ -1,6 +1,9 @@
 Project Overview
 
-This Online Library Management System is a web-based application designed to manage a collection of books and facilitate user authentication. It allows users to view available books after successful login and restricts access for unauthorized users. The system also includes a login and registration toggle feature, making user authentication seamless.
+This Online Library Management System is a web-based application designed to manage a collection of books and facilitate 
+user authentication. 
+It allows users to view available books after successful login and restricts access for unauthorized users. 
+The system also includes a login and registration toggle feature, making user authentication seamless.
 
 |---------------------------------------------------------------------------------------------------------------------------|
 
