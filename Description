@@ -41,18 +41,18 @@ Azure Data Studio---------------> Managing SQL Server database.
                       Users Table
 
 Column Name	                Data Type	Description
-Id	INT (Primary Key)	      Unique identifier for each user
-Email	NVARCHAR(255)	        Stores user email
-PasswordHash NVARCHAR(255)	Stores hashed password
+Id	INT (Primary Key)----->	Unique identifier for each user
+Email	NVARCHAR(255)------->	Stores user email
+PasswordHash NVARCHAR(255)->Stores hashed password
 
                       Books table(Read only)
 
 Column Name	                  Data Type	Description
-S.NO	                        Unique identifier for each user
-Name of the Book              Each book's name
-Author                    	  Each Books' Author
-Total Copies                  No. of available copies                  
-Price of Each                 Each Book's Price  
+S.NO------------------------>	Unique identifier for each Book
+Name of the Book------------> Each book's name
+Author----------------------> Each Book's Author
+Total Copies----------------> No. of available copies                  
+Price of Each---------------> Each Book's Price  
 
 |--------------------------------------------------------------------------------------------------------------------------|
 
