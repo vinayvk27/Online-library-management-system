@@ -1,0 +1,67 @@
+@{
+    Layout = null;
+    ViewData["Title"] = "Library Management System";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Library Login</title>
+    <link rel="stylesheet" href="~/css/styles.css">
+    <script src="~/js/script.js" defer></script>
+</head>
+<body>
+
+    <h1>Welcome to the Online Library</h1>
+    <p>Manage books, users, and transactions easily.</p>
+
+    <div class="container">
+
+        <div id="login-form">
+            <h2>Login</h2>
+            <form method="post" action="/Account/Login">
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p><a href="#" id="show-register">Register</a></p>
+
+                <div class="forgot-container">
+                    <a href="#" id="forgot">Forgot Password?</a>
+            </div>
+
+            
+             
+        </div>
+
+            
+
+        
+
+
+
+        <div id="register-form" style="display: none;">
+            <h2>Register</h2>
+            <form method="post" action="/Account/Register">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit">Register</button>
+            </form>
+            <p>Already have an account? <a href="#" id="show-login">Login</a></p>
+        </div>
+    </div>
+
+    <button id="openPopup">Privacy Policy</button>
+    <div id="privacyPopup" style="display: none;">
+        <div class="popup-content">
+            <h2>Privacy Policy</h2>
+            <p>Your privacy is important to us...</p>
+            <button id="closePopup">Close</button>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
