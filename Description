@@ -65,10 +65,10 @@ Price of Each---------------> Each Book's Price
 ->Users can register with their email and password.
 ->When a user logs in, the system checks their credentials in the database.
 ->If valid, the user is redirected to the dashboard.
-->If invalid, an error message appears on the login page.
+->If invalid, the user still stays on the login page.
 
 2. Books Display for Authenticated Users
-->The dashboard displays books fetched from the database.
+->The dashboard displays books available from the library along with prices.
 ->Books are stored in an SQL Server non-editable table to prevent modifications.
 
 3. Connection to SQL Server
